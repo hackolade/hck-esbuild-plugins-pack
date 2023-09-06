@@ -13,7 +13,7 @@ npm install @hackolade/hck-esbuild-plugins-pack
 ## Usage
 ```javascript
 import { build } from 'esbuild';
-import { clean } from 'esbuild-plugin-clean';
+import { copyFolderFiles, addReleaseFlag } from '@hackolade/hck-esbuild-plugins-pack';
 
 (async () => {
     const res = await build({
