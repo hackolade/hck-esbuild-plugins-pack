@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/hackolade/hck-esbuild-plugins-pack/issues"
   },
-  "homepage": "https://github.com/hackolade/hck-esbuild-plugins-pack#readme"
+  "homepage": "https://github.com/hackolade/hck-esbuild-plugins-pack#readme",
+  "peerDependencies": {
+    "esbuild": ">= 0.17.10"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
 }
